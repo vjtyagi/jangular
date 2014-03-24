@@ -1,0 +1,1 @@
+angular.module('jangular', [ 'templates-app', 'jangular.paginate'  ]);
