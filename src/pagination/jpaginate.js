@@ -2,8 +2,6 @@ angular.module('jangular.paginate', [])
 	.directive('jPaginate', function(){
 
 
-		
-
 		var defaults = {
 
 				        containerID: "",
@@ -22,11 +20,11 @@ angular.module('jangular.paginate', [])
 				        pause: 0,
 				        clickStop: false,
 				        delay: 50,
-				        direction: "forward", // backwards || auto || random ||
-				        animation: "", // http://daneden.me/animate/ - any entrance animations
+				        direction: "forward", 
+				        animation: "", 
 				        fallback: 400,
 				        minHeight: true,
-				        callback: undefined // function( pages, items ) { }
+				        callback: undefined 
 		};
 
 
@@ -101,7 +99,7 @@ angular.module('jangular.paginate', [])
 
 				
 
-				scope.getNumber = function(n){
+				scope.getNumber = function (n) {
 					var a = [];
 					for( var i = 1; i <= n; i++ ){
 						a.push(i);

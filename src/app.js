@@ -13,6 +13,8 @@ angular.module("testApp", ['ngRoute', 'jangular'])
 		$scope.perPage = 5;
 		$scope.paginationOptions = {};
 		$scope.perPageOptions = [5, 10, 15];	
+
+		$scope.loadData = function(){};
 	   
 
 	   });
