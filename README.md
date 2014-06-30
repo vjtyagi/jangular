@@ -8,4 +8,4 @@ JPaginate
 
 A pagination directive for angular.
 
-documentation coming soon
+
